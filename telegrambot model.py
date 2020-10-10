@@ -8,7 +8,7 @@ bot = telebot.TeleBot(API_TOKEN)
 @bot.message_handler(commands=['help', 'start'])
 def send_welcome(message):
     bot.reply_to(message, """\
-Write here the phrase that the bot will say when the user click start command\
+Write here the phrase that the bot will say when the user click the command start\
 """)
 
 
