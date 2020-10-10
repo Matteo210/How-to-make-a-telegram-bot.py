@@ -1,6 +1,6 @@
 import telebot
 
-API_TOKEN = '<api_token>'   #write here the API token, without it, the bot won't work
+API_TOKEN = '<api_token>'   #write here the API token, without it, the bot will not work
 
 bot = telebot.TeleBot(API_TOKEN)
 
