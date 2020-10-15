@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Utente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-19 11:13:42 "/>
+        <attribute name="created" value="VXRlbnRlO0RFU0tUT1AtMTNNTlBGMjsyMDIwLTA5LTE4OyIwOTo1MDoyMCAiOzI4NjA="/>
+        <attribute name="edited" value="VXRlbnRlO0RFU0tUT1AtMTNNTlBGMjsyMDIwLTA5LTE5OyIxMToxMzo0MiAiOzEzOzMwMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, somma, finito" type="Integer" array="False" size=""/>
+            <assign variable="finito" expression="1"/>
+            <while expression="finito = 1">
+                <output expression="&quot;inserisci il primo numero&quot;" newline="True"/>
+                <input variable="num1"/>
+                <output expression="&quot;inserisci il secondo numero&quot;" newline="True"/>
+                <input variable="num2"/>
+                <assign variable="somma" expression="num1+num2"/>
+                <output expression="&quot;inserisci 0 per conoscere il risultato, 1 per chiudere&quot;" newline="True"/>
+                <input variable="finito"/>
+            </while>
+            <output expression="&quot; la somma tra &quot; &amp; num1 &amp; &quot; e &quot; &amp; num2 &amp; &quot; &#232; uguale a &quot; &amp; somma" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
